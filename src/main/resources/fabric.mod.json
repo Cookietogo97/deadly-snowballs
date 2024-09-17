@@ -3,10 +3,10 @@
   "id": "deadlysnowballs",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This mod aims to help new BTA modders.",
+  "name": "Deadly Snowballs",
+  "description": "This mod adds deadly snowballs to minecraft.",
   "authors": [
-    "Turnip Labs"
+    "cookietogo97"
   ],
   "contact": {
     "homepage": "",
