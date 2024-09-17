@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "deadlysnowballs",
   "version": "${version}",
 
   "name": "Example Mod",
@@ -19,20 +19,20 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-			"turniplabs.examplemod.ExampleMod"
+			"cookietogo97.deadlysnowballs.DeadlySnowballs"
     ],
 		"beforeGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"cookietogo97.deadlysnowballs.DeadlySnowballs"
 		],
 		"afterGameStart": [
-			"turniplabs.examplemod.ExampleMod"
+			"cookietogo97.deadlysnowballs.DeadlySnowballs"
 		],
 		"recipesReady": [
-			"turniplabs.examplemod.ExampleMod"
+			"cookietogo97.deadlysnowballs.DeadlySnowballs"
 		]
 	},
   "mixins": [
-      "examplemod.mixins.json"
+		"deadlysnowballs.mixins.json"
   ],
 
   "depends": {
