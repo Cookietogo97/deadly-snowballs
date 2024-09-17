@@ -1,6 +1,7 @@
 package cookietogo97.deadlysnowballs;
 
 import net.fabricmc.api.ModInitializer;
+import net.minecraft.core.data.registry.Registries;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import turniplabs.halplibe.util.GameStartEntrypoint;
@@ -17,7 +18,7 @@ public class DeadlySnowballs implements ModInitializer, GameStartEntrypoint, Rec
 
 	@Override
 	public void beforeGameStart() {
-
+		new DeadlySnowballsItems().Initialize();
 	}
 
 	@Override
@@ -32,6 +33,7 @@ public class DeadlySnowballs implements ModInitializer, GameStartEntrypoint, Rec
 
 	@Override
 	public void initNamespaces() {
-
+		new DeadlySnowballsRecipeRegistries();
+		Registries.RECIPES.register("deadlysnowballs", DeadlySnowballsRecipeRegistries.DEADLYSNOWBALLS);
 	}
 }
